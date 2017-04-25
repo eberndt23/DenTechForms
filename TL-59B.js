@@ -2,12 +2,51 @@
 //-----------------Do not edit the XML tags--------------------
 //-------------------------------------------------------------
 
+//<Document-Level>
+//<ACRO_source>Avg</ACRO_source>
+//<ACRO_script>
+/*********** belongs to: Document-Level:Avg ***********/
+function Avg() {
+// compute average of non-empty passed field names
+var sum = 0; // sum of fields
+var count = 0; // counter for non-blank fields
+for(i = 0; i < arguments.length; i++) {
+var iField = arguments[i]; // get the i element from passed arguments
+var fField = this.getField(arguments[i]).value;
+if(!(isNaN(fField)) ) {
+// field is a number
+if(fField.toString() != '') {
+// field is not null or blank
+sum += Number(fField); // add to sum
+count++; // increment count
+} // end not blank
+} // end number
+} // end loop through arguments
+if(count != 0) {
+// compute average if there is one or more items to average
+return sum / count; // return average
+} else {
+return '';
+} // end no average computed
+} // end Avg function
+//</ACRO_script>
+//</Document-Level>
+
 //<AcroForm>
 //<ACRO_source>Average:Validate</ACRO_source>
 //<ACRO_script>
 /*********** belongs to: AcroForm:Average:Validate ***********/
 // Blank the field if it calculates to zero
 if (+event.value === 0) event.value = ""; 
+//</ACRO_script>
+//</AcroForm>
+
+//<AcroForm>
+//<ACRO_source>Average:Calculate</ACRO_source>
+//<ACRO_script>
+/*********** belongs to: AcroForm:Average:Calculate ***********/
+event.value = util.printf("%.1f" , Avg('BulkSpecificGravity1' , 'BulkSpecificGravity2' , 'BulkSpecificGravity3' , 'BulkSpecificGravity4' , 'BulkSpecificGravity5' , 'BulkSpecificGravity6' , 'BulkSpecificGravity7'));
+
 //</ACRO_script>
 //</AcroForm>
 
@@ -114,9 +153,9 @@ event.value = denominator !== 0 ? numerator / denominator : "";
 //</AcroForm>
 
 //<AcroForm>
-//<ACRO_source>BulkSprAF7:Calculate</ACRO_source>
+//<ACRO_source>BulkSpGrAF7:Calculate</ACRO_source>
 //<ACRO_script>
-/*********** belongs to: AcroForm:BulkSprAF7:Calculate ***********/
+/*********** belongs to: AcroForm:BulkSpGrAF7:Calculate ***********/
 // Column Gmb7
 // Get the field values, as numbers
 
@@ -131,12 +170,50 @@ event.value = denominator !== 0 ? numerator / denominator : "";
 //</AcroForm>
 
 //<AcroForm>
+//<ACRO_source>ResetForm:Annot1:MouseUp:Action1</ACRO_source>
+//<ACRO_script>
+/*********** belongs to: AcroForm:ResetForm:Annot1:MouseUp:Action1 ***********/
+var cMsg = "Continuing with the current action will erase all previous entries.";
+cMsg += "\n\nDo you wish to reset the form?";
+
+var nRtn = app.alert(cMsg,2,2,"Reset Form");
+if(nRtn == 4)
+{
+;
+}
+else if(nRtn == 3)
+{console.println("The Response Was No");
+}
+
+
+
+
+
+//</ACRO_script>
+//</AcroForm>
+
+//<AcroForm>
 //<ACRO_source>SubmitForm:Annot1:MouseUp:Action1</ACRO_source>
 //<ACRO_script>
 /*********** belongs to: AcroForm:SubmitForm:Annot1:MouseUp:Action1 ***********/
-// Save and Submit Form
+var cMsg = "Please make sure the form is correctly filled out before continuing.";
+cMsg += "\n\nDo you wish to submit the form?";
+
+var nRtn = app.alert(cMsg,2,2,"Submit Form");
+if(nRtn == 4)
+{
 app.execMenuItem("Save");
-app.execMenuItem("Close");
+app.alert("Form submitted successfully! This window will now close.", 3);
+app.execMenuItem("Close");;
+}
+else if(nRtn == 3)
+{console.println("The Response Was No");
+}
+
+
+
+
+
 //</ACRO_script>
 //</AcroForm>
 
