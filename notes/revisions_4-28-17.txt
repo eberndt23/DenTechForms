@@ -1,0 +1,18 @@
+*Forms no longer used*
+
+TL-59C
+TL-59B
+
+*TL-60 Forms*
+
+Lance would like to remove columns C and D. Column F will change from E-D to E-B.
+SSd Bulk Specific Gravity (A/F) should be calculated to the nearest 1000th of a decimal.
+
+Bottom rows A,B,and C should be calculated to the nearest 10th of a decimal. 
+
+TL-60 OLD (and possibly others) have a calculation error. Division is performed when it should be subtraction (B-C)
+
+*TL-59A New Method A-Cores*
+
+Volume (C-B) column and %Gmm Column should be calculated to nearest 10th of a decimal (including average) 
+Gmb (A/C-B) will remain to the nearest 1000th of a decimal. 
