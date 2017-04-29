@@ -274,7 +274,7 @@ var numerator = +getField("SSDWeightInAirg1").value;
 
 var denominator = +getField("WeightinWatergBC1").value;
 
-var result = numerator / denominator;
+var result = numerator -denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -289,7 +289,7 @@ var numerator = +getField("SSDWeightInAirg2").value;
 
 var denominator = +getField("WeightinWatergBC2").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -304,7 +304,7 @@ var numerator = +getField("SSDWeightInAirg3").value;
 
 var denominator = +getField("WeightinWatergBC3").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -319,7 +319,7 @@ var numerator = +getField("SSDWeightInAirg4").value;
 
 var denominator = +getField("WeightinWatergBC4").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -334,7 +334,7 @@ var numerator = +getField("SSDWeightInAirg5").value;
 
 var denominator = +getField("WeightinWatergBC5").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -349,7 +349,7 @@ var numerator = +getField("SSDWeightInAirg6").value;
 
 var denominator = +getField("WeightinWatergBC6").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -364,7 +364,7 @@ var numerator = +getField("SSDWeightInAirg7").value;
 
 var denominator = +getField("WeightinWatergBC7").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -379,7 +379,7 @@ var numerator = +getField("WeightinWaterTotalg1").value;
 
 var denominator = +getField("BasketTareWeightg1").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -395,7 +395,7 @@ var numerator = +getField("WeightinWaterTotalg2").value;
 
 var denominator = +getField("BasketTareWeightg2").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -411,7 +411,7 @@ var numerator = +getField("WeightinWaterTotalg3").value;
 
 var denominator = +getField("BasketTareWeightg3").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -427,7 +427,7 @@ var numerator = +getField("WeightinWaterTotalg4").value;
 
 var denominator = +getField("BasketTareWeightg4").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -443,7 +443,7 @@ var numerator = +getField("WeightinWaterTotalg5").value;
 
 var denominator = +getField("BasketTareWeightg5").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -459,7 +459,7 @@ var numerator = +getField("WeightinWaterTotalg6").value;
 
 var denominator = +getField("BasketTareWeightg6").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -475,7 +475,7 @@ var numerator = +getField("WeightinWaterTotalg7").value;
 
 var denominator = +getField("BasketTareWeightg7").value;
 
-var result = numerator / denominator;
+var result = numerator - denominator;
 
 event.value = (numerator !==0 , denominator !==0) ? util.printf("%.1f",result) : "";
 
@@ -500,9 +500,10 @@ var x1 = +getField("Average").value;
 var x2 = +getField("maxSG").value;
 var result = x1 / x2;
 
-event.value = util.printf("%.3f" , result);
+event.value = util.printf("%.1f" , result);
 
 //</ACRO_script>
 //</AcroForm>
+
 
 
