@@ -53,7 +53,7 @@ event.value = util.printf("%.3f", Avg('Gmb1' , 'Gmb2' , 'Gmb3' , 'Gmb4' , 'Gmb5'
 //<ACRO_script>
 /*********** belongs to: AcroForm:Avg2:Calculate ***********/
 var d1 = +getField("DailyGmm").value;
-event.value = util.printf("%.3f", Avg('GmmPerct1','GmmPerct2','GmmPerct3','GmmPerct4','GmmPerct5','GmmPerct6','GmmPerct7'))+'%';
+event.value = util.printf("%.1f", Avg('GmmPerct1','GmmPerct2','GmmPerct3','GmmPerct4','GmmPerct5','GmmPerct6','GmmPerct7'))+'%';
 
 //</ACRO_script>
 //</AcroForm>
@@ -802,7 +802,7 @@ var n2 = +getField("DailyGmm").value;
 
 result = (n1 / n2);
 
-event.value = (n1 !==0 , n2 !==0) ? util.printf("%.3f",result*100) : "";
+event.value = (n1 !==0 , n2 !==0) ? util.printf("%.1f",result*100) : "";
 //</ACRO_script>
 //</AcroForm>
 
@@ -829,7 +829,7 @@ var n2 = +getField("DailyGmm").value;
 
 result = (n1 / n2);
 
-event.value = (n1 !==0 , n2 !==0) ? util.printf("%.3f",result*100) : "";
+event.value = (n1 !==0 , n2 !==0) ? util.printf("%.1f",result*100) : "";
 //</ACRO_script>
 //</AcroForm>
 
@@ -856,7 +856,7 @@ var n2 = +getField("DailyGmm").value;
 
 result = (n1 / n2);
 
-event.value = (n1 !==0 , n2 !==0) ? util.printf("%.3f",result*100) : "";
+event.value = (n1 !==0 , n2 !==0) ? util.printf("%.1f",result*100) : "";
 //</ACRO_script>
 //</AcroForm>
 
@@ -883,7 +883,7 @@ var n2 = +getField("DailyGmm").value;
 
 result = (n1 / n2);
 
-event.value = (n1 !==0 , n2 !==0) ? util.printf("%.3f",result*100) : "";
+event.value = (n1 !==0 , n2 !==0) ? util.printf("%.1f",result*100) : "";
 //</ACRO_script>
 //</AcroForm>
 
@@ -910,7 +910,7 @@ var n2 = +getField("DailyGmm").value;
 
 result = (n1 / n2);
 
-event.value = (n1 !==0 , n2 !==0) ? util.printf("%.3f",result*100) : "";
+event.value = (n1 !==0 , n2 !==0) ? util.printf("%.1f",result*100) : "";
 //</ACRO_script>
 //</AcroForm>
 
@@ -937,7 +937,7 @@ var n2 = +getField("DailyGmm").value;
 
 result = (n1 / n2);
 
-event.value = (n1 !==0 , n2 !==0) ? util.printf("%.3f",result*100) : "";
+event.value = (n1 !==0 , n2 !==0) ? util.printf("%.1f",result*100) : "";
 //</ACRO_script>
 //</AcroForm>
 
@@ -964,7 +964,7 @@ var n2 = +getField("DailyGmm").value;
 
 result = (n1 / n2);
 
-event.value = (n1 !==0 , n2 !==0) ? util.printf("%.3f",result*100) : "";
+event.value = (n1 !==0 , n2 !==0) ? util.printf("%.1f",result*100) : "";
 //</ACRO_script>
 //</AcroForm>
 
@@ -1096,7 +1096,7 @@ var denominator = +getField("WeightinWtr1").value;
 
 var result = numerator - denominator;
 
-event.value = (denominator !==0 , numerator !==0) ? util.printf("%.3f",result) : "";
+event.value = (denominator !==0 , numerator !==0) ? util.printf("%.1f",result) : "";
 
 //</ACRO_script>
 //</AcroForm>
@@ -1111,7 +1111,7 @@ var denominator = +getField("WeightinWtr2").value;
 
 var result = numerator - denominator;
 
-event.value = (denominator !==0 , numerator !==0) ? util.printf("%.3f",result) : "";
+event.value = (denominator !==0 , numerator !==0) ? util.printf("%.1f",result) : "";
 
 //</ACRO_script>
 //</AcroForm>
@@ -1126,7 +1126,7 @@ var denominator = +getField("WeightinWtr3").value;
 
 var result = numerator - denominator;
 
-event.value = (denominator !==0 , numerator !==0) ? util.printf("%.3f",result) : "";
+event.value = (denominator !==0 , numerator !==0) ? util.printf("%.1",result) : "";
 
 //</ACRO_script>
 //</AcroForm>
@@ -1141,7 +1141,7 @@ var denominator = +getField("WeightinWtr4").value;
 
 var result = numerator - denominator;
 
-event.value = (denominator !==0 , numerator !==0) ? util.printf("%.3f",result) : "";
+event.value = (denominator !==0 , numerator !==0) ? util.printf("%.1f",result) : "";
 
 //</ACRO_script>
 //</AcroForm>
@@ -1156,7 +1156,7 @@ var denominator = +getField("WeightinWtr5").value;
 
 var result = numerator - denominator;
 
-event.value = (denominator !==0 , numerator !==0) ? util.printf("%.3f",result) : "";
+event.value = (denominator !==0 , numerator !==0) ? util.printf("%.1f",result) : "";
 
 //</ACRO_script>
 //</AcroForm>
@@ -1171,7 +1171,7 @@ var denominator = +getField("WeightinWtr6").value;
 
 var result = numerator - denominator;
 
-event.value = (denominator !==0 , numerator !==0) ? util.printf("%.3f",result) : "";
+event.value = (denominator !==0 , numerator !==0) ? util.printf("%.1f",result) : "";
 
 //</ACRO_script>
 //</AcroForm>
@@ -1186,7 +1186,7 @@ var denominator = +getField("WeightinWtr7").value;
 
 var result = numerator - denominator;
 
-event.value = (denominator !==0 , numerator !==0) ? util.printf("%.3f",result) : "";
+event.value = (denominator !==0 , numerator !==0) ? util.printf("%.1f",result) : "";
 
 //</ACRO_script>
 //</AcroForm>
@@ -1208,5 +1208,6 @@ var result = n1 * 0.95;
 event.value = util.printf("%.1f" , result);
 //</ACRO_script>
 //</AcroForm>
+
 
 
