@@ -1,0 +1,2376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="Designer_V6.1.0.20150517.1.919161" APIVersion="3.6.15103.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-05-03T19:09:24Z" uuid="58344db9-0a52-497d-87c6-097b7ee05e91">
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0static?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform name="topmostSubform" layout="tb" locale="en_US" restoreState="auto">
+      <pageSet>
+         <pageArea id="PageArea1" name="PageArea1">
+            <contentArea name="ContentArea1" x="0pt" y="0pt" w="612pt" h="792pt"/>
+            <medium short="612pt" long="792pt" stock="custom"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <desc>
+         <text name="title">TL-57 (Rev</text>
+         <text name="creator">tart1_mr</text>
+         <text name="version">6.1.0.20150517.1.919161</text>
+      </desc>
+      <subform name="Page1" x="0pt" y="0pt" w="612pt" h="792pt">
+         <breakBefore targetType="pageArea" target="PageArea1"/>
+         <bind match="none"/>
+         <subform name="P" x="0.375in" y="0.493in" w="0.726in" h="0.113in">
+            <draw name="T0" w="0.726in" minH="0.113in">
+               <value>
+                  <text>TL-57 (Rev. 4/05) </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="6pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[1].T1[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="0.375in" y="0.589in" w="1.536in" h="0.113in">
+            <draw name="T1" w="1.536in" minH="0.113in">
+               <value>
+                  <text>Modified 4/14 for Superior Paving Corp. </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="6pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="H1[0].T2[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="H1" x="2.958in" y="0.681in" w="2.796in" h="0.199in">
+            <draw name="T2" w="2.796in" minH="0.199in">
+               <value>
+                  <text>ASPHALT NUCLEAR DENSITY THIN LIFT </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font weight="bold" typeface="Arial"/>
+               <traversal>
+                  <traverse ref="P[2].T3[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="3.366in" y="0.841in" w="1.979in" h="0.199in">
+            <draw name="T3" w="1.979in" minH="0.199in">
+               <value>
+                  <text>ROLLER PATTERN - GRAPH </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font weight="bold" typeface="Arial"/>
+               <traversal>
+                  <traverse ref="P[3].T4[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="2.872in" y="1.227in" w="0.87in" h="0.151in">
+            <draw name="T4" w="0.87in" minH="0.151in">
+               <value>
+                  <text>Control Strip No </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[4].T5[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="0.824in" y="1.496in" w="1.05in" h="0.151in">
+            <draw name="T5" w="1.05in" minH="0.151in">
+               <value>
+                  <text>Project or Schedule </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[5].T6[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="3.319in" y="1.496in" w="0.47in" h="0.151in">
+            <draw name="T6" w="0.47in" minH="0.151in">
+               <value>
+                  <text>Item No </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[6].T7[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="6.008in" y="1.496in" w="0.315in" h="0.151in">
+            <draw name="T7" w="0.315in" minH="0.151in">
+               <value>
+                  <text>Date </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[7].T9[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <draw name="R8" x="272.46pt" y="103.2pt" w="71.041pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <subform name="P" x="0.824in" y="1.746in" w="0.377in" h="0.151in">
+            <draw name="T9" w="0.377in" minH="0.151in">
+               <value>
+                  <text>Route </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[8].T10[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="3.449in" y="1.746in" w="0.34in" h="0.151in">
+            <draw name="T10" w="0.34in" minH="0.151in">
+               <value>
+                  <text>From </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[9].T11[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="6.113in" y="1.746in" w="0.21in" h="0.151in">
+            <draw name="T11" w="0.21in" minH="0.151in">
+               <value>
+                  <text>To </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[10].T17[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <draw name="R12" x="141.12pt" y="121.2pt" w="19.68pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R13" x="160.8pt" y="121.2pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R14" x="161.28pt" y="121.2pt" w="61.86pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R15" x="272.46pt" y="121.2pt" w="71.041pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R16" x="454.98pt" y="121.2pt" w="64.98pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <subform name="P" x="0.824in" y="1.996in" w="0.884in" h="0.151in">
+            <draw name="T17" w="0.884in" minH="0.151in">
+               <value>
+                  <text>Directional Lane </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[11].T18[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="5.995in" y="1.996in" w="0.328in" h="0.151in">
+            <draw name="T18" w="0.328in" minH="0.151in">
+               <value>
+                  <text>Lane </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[12].T26[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <draw name="R19" x="98.76pt" y="139.201pt" w="42.36pt" h="0.239pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R20" x="141.12pt" y="139.201pt" w="0.24pt" h="0.239pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R21" x="141.36pt" y="139.201pt" w="19.44pt" h="0.239pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R22" x="272.46pt" y="139.2pt" w="48.3pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R23" x="320.76pt" y="139.2pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R24" x="321.24pt" y="139.2pt" w="22.261pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R25" x="454.98pt" y="139.2pt" w="64.98pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <subform name="P" x="2.051in" y="2.178in" w="0.604in" h="0.135in">
+            <draw name="T26" w="0.604in" minH="0.135in">
+               <value>
+                  <text>(NBL, SBL, etc)</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="7pt" typeface="ArialNarrow"/>
+               <traversal>
+                  <traverse ref="P[13].T27[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="6.393in" y="2.178in" w="0.772in" h="0.135in">
+            <draw name="T27" w="0.772in" minH="0.135in">
+               <value>
+                  <text>(Inside, Center, etc.)</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="7pt" typeface="ArialNarrow"/>
+               <traversal>
+                  <traverse ref="P[14].T30[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <draw name="R28" x="141.12pt" y="155.819pt" w="53.16pt" h="0.481pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R29" x="454.98pt" y="155.819pt" w="64.98pt" h="0.481pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <subform name="P" x="0.824in" y="2.435in" w="0.531in" h="0.151in">
+            <draw name="T30" w="0.531in" minH="0.151in">
+               <value>
+                  <text>Mix Type </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[15].T31[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="2.899in" y="2.45in" w="0.888in" h="0.151in">
+            <draw name="T31" w="0.888in" minH="0.151in">
+               <value>
+                  <text>Application Rate </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[16].T32[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="4.53in" y="2.435in" w="0.407in" h="0.151in">
+            <draw name="T32" w="0.407in" minH="0.151in">
+               <value>
+                  <text>lbs/yd² </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[17].T33[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="6.206in" y="2.435in" w="0.117in" h="0.151in">
+            <draw name="T33" w="0.117in" minH="0.151in">
+               <value>
+                  <text>( </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[18].T34[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="7.371in" y="2.435in" w="0.395in" h="0.151in">
+            <draw name="T34" w="0.395in" minH="0.151in">
+               <value>
+                  <text>kg/m²) </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[19].T35[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="0.824in" y="2.737in" w="0.531in" h="0.151in">
+            <draw name="T35" w="0.531in" minH="0.151in">
+               <value>
+                  <text>Producer </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[20].T36[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="4.659in" y="2.737in" w="0.499in" h="0.151in">
+            <draw name="T36" w="0.499in" minH="0.151in">
+               <value>
+                  <text>Location </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[21].T42[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <draw name="R37" x="116.22pt" y="190.26pt" w="78.061pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R38" x="272.46pt" y="190.26pt" w="21.721pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R39" x="294.18pt" y="190.26pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R40" x="294.66pt" y="190.26pt" w="26.1pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R41" x="454.98pt" y="190.26pt" w="64.98pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <subform name="P" x="0.83in" y="2.971in" w="0.413in" h="0.279in">
+            <draw name="T42" w="0.413in" minH="0.151in">
+               <value>
+                  <text>Gauge </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="T43[0]"/>
+               </traversal>
+            </draw>
+            <draw name="T43" x="0.015in" y="0.128in" w="0.352in" minH="0.151in">
+               <value>
+                  <text>Model</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[22].T44[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="2.357in" y="2.971in" w="0.364in" h="0.279in">
+            <draw name="T44" w="0.364in" minH="0.151in">
+               <value>
+                  <text>Serial </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="T45[0]"/>
+               </traversal>
+            </draw>
+            <draw name="T45" x="0.072in" y="0.128in" w="0.191in" minH="0.151in">
+               <value>
+                  <text>No</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[23].T46[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="3.986in" y="2.971in" w="0.611in" h="0.279in">
+            <draw name="T46" w="0.611in" minH="0.151in">
+               <value>
+                  <text>Calibration </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="T47[0]"/>
+               </traversal>
+            </draw>
+            <draw name="T47" x="0.149in" y="0.128in" w="0.283in" minH="0.151in">
+               <value>
+                  <text>Date</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[24].T48[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="5.954in" y="2.971in" w="0.4in" h="0.279in">
+            <draw name="T48" x="0.025in" w="0.375in" minH="0.151in">
+               <value>
+                  <text>Depth </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="T49[0]"/>
+               </traversal>
+            </draw>
+            <draw name="T49" y="0.128in" w="0.395in" minH="0.151in">
+               <value>
+                  <text>Setting</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[25].T50[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="7.477in" y="2.971in" w="0.309in" h="0.279in">
+            <draw name="T50" x="0.071in" w="0.197in" minH="0.151in">
+               <value>
+                  <text>in. </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="T51[0]"/>
+               </traversal>
+            </draw>
+            <draw name="T51" y="0.128in" w="0.309in" minH="0.151in">
+               <value>
+                  <text>(mm)</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[26].T74[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <draw name="R52" x="89.64pt" y="208.26pt" w="26.58pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R53" x="116.22pt" y="208.26pt" w="0.481pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R54" x="116.7pt" y="208.26pt" w="45.18pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R55" x="161.88pt" y="208.26pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R56" x="162.36pt" y="208.26pt" w="35.82pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R57" x="198.18pt" y="208.26pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R58" x="198.66pt" y="208.26pt" w="80.52pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R59" x="279.18pt" y="208.26pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R60" x="279.66pt" y="208.26pt" w="14.521pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R61" x="371.16pt" y="208.26pt" w="51.96pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R62" x="423.12pt" y="208.26pt" w="0.481pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R63" x="423.6pt" y="208.26pt" w="35.58pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R64" x="459.18pt" y="208.26pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R65" x="459.66pt" y="208.26pt" w="71.52pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R66" x="531.18pt" y="208.26pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R67" x="531.66pt" y="208.26pt" w="32.58pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R68" x="88.92pt" y="232.92pt" w="72.96pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R69" x="197.46pt" y="232.92pt" w="81.72pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R70" x="332.46pt" y="232.92pt" w="90.66pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R71" x="458.46pt" y="232.92pt" w="72.72pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <subform name="P" x="1in" y="9.019in" w="0.931in" h="0.151in">
+            <draw name="T74" w="0.931in" minH="0.151in">
+               <value>
+                  <text>Optimum Density </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[27].T75[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="4.903in" y="9.019in" w="0.351in" h="0.151in">
+            <draw name="T75" w="0.351in" minH="0.151in">
+               <value>
+                  <text>lbs/ft³ </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[28].T76[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="5.324in" y="9.036in" w="0.401in" h="0.151in">
+            <draw name="T76" w="0.401in" minH="0.151in">
+               <value>
+                  <text>(kg/m³)</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[29].T77[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="3.118in" y="9.186in" w="1.233in" h="0.135in">
+            <draw name="T77" w="1.233in" minH="0.135in">
+               <value>
+                  <text>(from peak of roller pattern curve)</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="7pt" typeface="ArialNarrow"/>
+               <traversal>
+                  <traverse ref="P[30].T79[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <draw name="R78" x="189pt" y="660.359pt" w="156.3pt" h="0.481pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <subform name="P" x="1in" y="9.33in" w="1.475in" h="0.151in">
+            <draw name="T79" w="1.475in" minH="0.151in">
+               <value>
+                  <text>Optimum Number of Passes:</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[31].T80[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="2.792in" y="9.57in" w="0.462in" h="0.151in">
+            <draw name="T80" w="0.462in" minH="0.151in">
+               <value>
+                  <text>Roller 1 </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[32].T81[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="4.338in" y="9.57in" w="0.462in" h="0.151in">
+            <draw name="T81" w="0.462in" minH="0.151in">
+               <value>
+                  <text>Roller 2 </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[33].T82[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="6.274in" y="9.57in" w="0.463in" h="0.151in">
+            <draw name="T82" w="0.463in" minH="0.151in">
+               <value>
+                  <text>Roller 3 </text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[34].T86[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <draw name="R83" x="233.28pt" y="702.24pt" w="63.72pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R84" x="344.58pt" y="702.24pt" w="70.439pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R85" x="483.96pt" y="702.24pt" w="70.44pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <subform name="P" x="1in" y="10.024in" w="1.124in" h="0.151in">
+            <draw name="T86" w="1.124in" minH="0.151in">
+               <value>
+                  <text>Testing Performed By</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[35].T87[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="4.574in" y="10.024in" w="0.692in" h="0.151in">
+            <draw name="T87" w="0.692in" minH="0.151in">
+               <value>
+                  <text>Observed By</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="8pt" typeface="ArialMT"/>
+               <traversal>
+                  <traverse ref="P[36].T88[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <subform name="P" x="6.445in" y="10.174in" w="0.622in" h="0.135in">
+            <draw name="T88" w="0.622in" minH="0.135in">
+               <value>
+                  <text>VDOT Inspector</text>
+               </value>
+               <ui>
+                  <textEdit/>
+               </ui>
+               <para vAlign="middle"/>
+               <font size="7pt" typeface="ArialNarrow"/>
+               <traversal>
+                  <traverse ref="Control_Strip_No[0]"/>
+               </traversal>
+            </draw>
+            <?templateDesigner expand 1?></subform>
+         <draw name="R89" x="171pt" y="732.66pt" w="18pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R90" x="189pt" y="732.66pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R91" x="189.48pt" y="732.66pt" w="44.52pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R92" x="234pt" y="732.66pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R93" x="234.48pt" y="732.66pt" w="41.1pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R94" x="275.58pt" y="732.66pt" w="0.48pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R95" x="276.06pt" y="732.66pt" w="47.94pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <draw name="R96" x="415.02pt" y="732.66pt" w="139.38pt" h="0.48pt">
+            <value>
+               <rectangle>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="0,0,0"/>
+                  </fill>
+               </rectangle>
+            </value>
+         </draw>
+         <field name="Control_Strip_No" x="272.4pt" y="85.8pt" w="71.28pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Control Strip No</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Project_or_Schedule[0]"/>
+            </traversal>
+         </field>
+         <field name="Project_or_Schedule" x="141.12pt" y="103.8pt" w="82.08pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Project or Schedule</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Item_No[0]"/>
+            </traversal>
+         </field>
+         <field name="Item_No" x="272.4pt" y="103.8pt" w="71.28pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Item No</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Route[0]"/>
+            </traversal>
+         </field>
+         <field name="Route" x="98.76pt" y="121.92pt" w="62.16pt" h="17.28pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Route</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="From[0]"/>
+            </traversal>
+         </field>
+         <field name="From" x="272.4pt" y="121.8pt" w="71.28pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>From</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Directional_Lane[0]"/>
+            </traversal>
+         </field>
+         <field name="Directional_Lane" x="141.12pt" y="139.56pt" w="53.28pt" h="16.2pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Directional Lane</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Mix_Type[0]"/>
+            </traversal>
+         </field>
+         <field name="Mix_Type" x="116.16pt" y="172.8pt" w="78.24pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Mix Type</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Application_Rate[0]"/>
+            </traversal>
+         </field>
+         <field name="Application_Rate" x="272.4pt" y="172.8pt" w="48.48pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Application Rate</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Producer[0]"/>
+            </traversal>
+         </field>
+         <field name="Producer" x="91.8pt" y="190.92pt" w="202.56pt" h="17.28pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Producer</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Model[0]"/>
+            </traversal>
+         </field>
+         <field name="Model" x="88.92pt" y="215.52pt" w="73.08pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Model</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="No[0]"/>
+            </traversal>
+         </field>
+         <field name="No" x="197.4pt" y="215.52pt" w="81.84pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>No</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Date[0]"/>
+            </traversal>
+         </field>
+         <field name="Date" x="332.4pt" y="215.52pt" w="90.84pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Date</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Date_2[0]"/>
+            </traversal>
+         </field>
+         <field name="Date_2" x="454.92pt" y="103.8pt" w="65.16pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Date</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="To[0]"/>
+            </traversal>
+         </field>
+         <field name="To" x="454.92pt" y="121.8pt" w="65.16pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>To</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Lane[0]"/>
+            </traversal>
+         </field>
+         <field name="Lane" x="454.92pt" y="139.8pt" w="65.16pt" h="15.96pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Lane</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="undefined[0]"/>
+            </traversal>
+         </field>
+         <field name="undefined" x="454.92pt" y="172.8pt" w="65.16pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>undefined</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Location[0]"/>
+            </traversal>
+         </field>
+         <field name="Location" x="371.16pt" y="190.8pt" w="193.2pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Location</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Setting[0]"/>
+            </traversal>
+         </field>
+         <field name="Setting" x="458.4pt" y="215.52pt" w="72.84pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Setting</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="from_peak_of_roller_pattern_curve[0]"/>
+            </traversal>
+         </field>
+         <field name="from_peak_of_roller_pattern_curve" x="189pt" y="642.96pt" w="156.36pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>from peak of roller pattern curve</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Roller_1[0]"/>
+            </traversal>
+         </field>
+         <field name="Roller_1" x="233.28pt" y="684.84pt" w="63.84pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Roller 1</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Roller_2[0]"/>
+            </traversal>
+         </field>
+         <field name="Roller_2" x="344.52pt" y="684.84pt" w="70.56pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Roller 2</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Testing_Performed_By[0]"/>
+            </traversal>
+         </field>
+         <field name="Testing_Performed_By" x="171pt" y="715.2pt" w="153.12pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Testing Performed By</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="Roller_3[0]"/>
+            </traversal>
+         </field>
+         <field name="Roller_3" x="483.96pt" y="684.84pt" w="70.56pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>Roller 3</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="VDOT_Inspector[0]"/>
+            </traversal>
+         </field>
+         <field name="VDOT_Inspector" x="414.96pt" y="715.2pt" w="139.56pt" h="17.4pt">
+            <ui>
+               <textEdit>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <para vAlign="middle"/>
+            <font typeface="Helvetica"/>
+            <assist>
+               <toolTip>VDOT Inspector</toolTip>
+            </assist>
+            <traversal>
+               <traverse ref="LineTable[0]"/>
+            </traversal>
+         </field>
+         <traversal>
+            <traverse operation="first" ref="P[0]"/>
+         </traversal>
+         <subform name="LineTable" x="95.858mm" y="156.996mm" w="102.731mm" h="137.938mm" anchorType="middleCenter">
+            <subform w="54.999mm" h="13.351mm" name="Input">
+               <subform name="Table" layout="table" columnWidths="20mm 5mm 5mm 10mm 10mm" id="Table_ID" x="0mm" y="1.55mm">
+                  <border>
+                     <edge presence="hidden"/>
+                     <corner presence="hidden"/>
+                  </border>
+                  <subform layout="row" name="Headline" id="Kopfzeile_ID_copy1">
+                     <assist role="TH"/>
+                     <draw w="30mm" h="5mm" name="Label">
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner thickness="0.1778mm" presence="hidden"/>
+                           <corner thickness="0.1778mm" presence="hidden"/>
+                           <corner thickness="0.1778mm"/>
+                           <corner thickness="0.1778mm" presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text>Density</text>
+                        </value>
+                        <font typeface="Arial" size="8pt"/>
+                        <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <traversal>
+                           <traverse ref="AddColumn[0]"/>
+                        </traversal>
+                     </draw>
+                     <field name="AddColumn" w="5mm" h="5mm" relevant="-print">
+                        <ui>
+                           <button highlight="inverted"/>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <caption>
+                           <value>
+                              <text>+</text>
+                           </value>
+                           <para vAlign="middle" hAlign="center"/>
+                        </caption>
+                        <border hand="right">
+                           <?templateDesigner StyleID apbx2?>
+                           <edge stroke="raised"/>
+                           <fill>
+                              <color value="212,208,200"/>
+                           </fill>
+                        </border>
+                        <bind match="none"/>
+                        <event activity="click" name="event__click">
+                           <script>
+if (Headline.Col.instanceManager.count &lt; Headline.Col.occur.max) then
+	Headline._Col.addInstance(1)
+	ChartValues[*]._Col.addInstance(1)
+	RenderChart.value = "true"
+	Output.Trigger.execCalculate()
+endif
+</script>
+                        </event>
+                        <traversal>
+                           <traverse ref="#draw[1]"/>
+                        </traversal>
+                        <assist>
+                           <toolTip>Add a new row and chart</toolTip>
+                        </assist>
+                     </field>
+                     <draw>
+                        <font typeface="Myriad Pro"/>
+                        <para vAlign="middle"/>
+                        <traversal>
+                           <traverse ref="Col[0].Value[0]"/>
+                        </traversal>
+                        <border>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                           <corner/>
+                        </border>
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                     </draw>
+                     <subform name="Col">
+                        <para vAlign="middle" hAlign="center"/>
+                        <occur max="10" min="2"/>
+                        <field name="Value" w="10mm" h="5mm" x="0mm" y="0mm" access="readOnly">
+                           <ui>
+                              <textEdit/>
+                           </ui>
+                           <font typeface="Arial" size="8pt"/>
+                           <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                           <para vAlign="middle" hAlign="right"/>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner thickness="0.1778mm" presence="hidden"/>
+                              <corner thickness="0.1778mm" presence="hidden"/>
+                              <corner thickness="0.1778mm"/>
+                              <corner thickness="0.1778mm" presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <calculate>
+                              <script>
+var nCol = Col.index +1
+var nColLabel = Concat("Pass ", nCol)
+$ = nColLabel
+</script>
+                           </calculate>
+                        </field>
+                        <traversal>
+                           <traverse operation="first" ref="Value[0]"/>
+                        </traversal>
+                        <?templateDesigner expand 1?></subform>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <occur max="-1"/>
+                     <draw name="Sum" w="10mm" minH="5mm" presence="invisible">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <value>
+                           <text>Sum</text>
+                        </value>
+                        <font typeface="Myriad Pro" size="8pt" baselineShift="0pt"/>
+                        <para vAlign="middle" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt" hAlign="right"/>
+                        <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge/>
+                           <corner/>
+                        </border>
+                     </draw>
+                     <traversal>
+                        <traverse operation="first" ref="Label[0]"/>
+                     </traversal>
+                     <?templateDesigner expand 1?></subform>
+                  <subform layout="row" name="ChartValues">
+                     <assist role="TR"/>
+                     <field name="Label" w="65.617mm" h="5mm">
+                        <ui>
+                           <textEdit hScrollPolicy="off">
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Myriad Pro" size="8pt"/>
+                        <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                        <para vAlign="middle"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner thickness="0.1778mm" presence="hidden"/>
+                           <corner thickness="0.1778mm" presence="hidden"/>
+                           <corner thickness="0.1778mm"/>
+                           <corner thickness="0.1778mm" presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                        </border>
+                        <traversal>
+                           <traverse ref="RemoveColumn[0]"/>
+                        </traversal>
+                        <calculate override="warning">
+                           <script>
+var nCharts = ChartValues.index +1
+var nChartLabel = Concat("Sample", nCharts)
+$ = nChartLabel
+</script>
+                        </calculate>
+                     </field>
+                     <field name="RemoveColumn" w="5mm" h="5mm" relevant="-print">
+                        <ui>
+                           <button highlight="inverted"/>
+                        </ui>
+                        <font typeface="Myriad Pro"/>
+                        <caption>
+                           <value>
+                              <text>-</text>
+                           </value>
+                           <para vAlign="middle" hAlign="center"/>
+                        </caption>
+                        <border hand="right">
+                           <?templateDesigner StyleID apbx2?>
+                           <edge stroke="raised"/>
+                           <fill>
+                              <color value="212,208,200"/>
+                           </fill>
+                        </border>
+                        <bind match="none"/>
+                        <event activity="click" name="event__click">
+                           <script>
+if (Headline.Col.instanceManager.count &gt; 1) then
+	Headline._Col.removeInstance(Headline.parent.index)
+	ChartValues[*]._Col.removeInstance(ChartValues.parent.index)
+endif
+</script>
+                        </event>
+                        <assist>
+                           <toolTip>Remove this row and chart</toolTip>
+                        </assist>
+                        <traversal>
+                           <traverse ref="Col[0].Amount[0]"/>
+                        </traversal>
+                     </field>
+                     <subform name="Color" w="5mm" h="5mm">
+                        <draw name="Color" w="5mm" h="5mm" x="0mm">
+                           <value>
+                              <rectangle>
+                                 <edge thickness="0.01mm">
+                                    <color value="255,255,255"/>
+                                 </edge>
+                                 <corner thickness="0.01mm" radius="1.5mm" join="round">
+                                    <color value="255,255,255"/>
+                                 </corner>
+                                 <fill/>
+                              </rectangle>
+                           </value>
+                           <ui>
+                              <defaultUi/>
+                           </ui>
+                           <font typeface="Myriad Pro" size="8pt"/>
+                           <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                           <para vAlign="middle"/>
+                        </draw>
+                        <para vAlign="middle" hAlign="center"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge presence="hidden"/>
+                           <corner/>
+                        </border>
+                        <traversal>
+                           <traverse ref="Col[0].Amount[0]"/>
+                        </traversal>
+                        <?templateDesigner expand 1?></subform>
+                     <subform name="Col">
+                        <para vAlign="middle" hAlign="center"/>
+                        <occur max="10" min="2"/>
+                        <field name="Amount" h="5mm" w="10mm" x="0mm">
+                           <ui>
+                              <numericEdit>
+                                 <border presence="hidden">
+                                    <?templateDesigner StyleID aped0?></border>
+                                 <margin/>
+                              </numericEdit>
+                           </ui>
+                           <font typeface="Myriad Pro" size="8pt"/>
+                           <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                           <para vAlign="middle" hAlign="right"/>
+                           <border>
+                              <edge presence="hidden"/>
+                              <corner thickness="0.1778mm" presence="hidden"/>
+                              <corner thickness="0.1778mm" presence="hidden"/>
+                              <corner thickness="0.1778mm"/>
+                              <corner thickness="0.1778mm" presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <value>
+                              <integer>0</integer>
+                           </value>
+                           <event activity="exit" name="event__exit">
+                              <script>
+if ($ &gt; 10000) then
+	$ = 10000
+endif
+
+if ($ &lt; 0) then
+	$ = 0
+endif
+
+if ($ ne OldValue.value) then
+	RenderChart.value = "true"
+	Output.Trigger.execCalculate()
+endif
+</script>
+                           </event>
+                           <traversal>
+                              <traverse ref="Sum[0]"/>
+                           </traversal>
+                           <event activity="enter" name="event__enter">
+                              <script>
+OldValue.value = $
+</script>
+                           </event>
+                        </field>
+                        <traversal>
+                           <traverse operation="first" ref="Amount[0]"/>
+                        </traversal>
+                        <?templateDesigner expand 1?></subform>
+                     <border>
+                        <edge presence="hidden"/>
+                     </border>
+                     <occur max="15"/>
+                     <field access="readOnly" name="Sum" w="10mm" presence="invisible">
+                        <ui>
+                           <numericEdit>
+                              <margin/>
+                           </numericEdit>
+                        </ui>
+                        <font typeface="Myriad Pro" size="8pt"/>
+                        <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                        <para vAlign="middle" hAlign="right"/>
+                        <calculate>
+                           <script>
+Sum(Col[*].Amount)
+</script>
+                        </calculate>
+                        <border>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge/>
+                           <edge/>
+                           <corner/>
+                        </border>
+                     </field>
+                     <?templateDesigner expand 1?></subform>
+                  <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+                  <keep intact="contentArea"/>
+                  <overflow leader="Headline"/>
+                  <?templateDesigner expand 1?></subform>
+               <traversal>
+                  <traverse operation="first" ref="Table[0]"/>
+               </traversal>
+               <?templateDesigner expand 1?></subform>
+            <traversal>
+               <traverse operation="first" ref="Input[0]"/>
+            </traversal>
+            <subform name="Output" access="readOnly" layout="lr-tb" y="12.766mm" x="12.386mm">
+               <subform name="yAxis" w="12.5mm" layout="tb">
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge thickness="0.2mm"/>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <corner/>
+                     <corner thickness="0.2mm"/>
+                     <corner/>
+                     <corner/>
+                  </border>
+                  <subform h="9.94mm" name="Mark" w="12.499mm">
+                     <draw h="10mm" name="Mark" x="0.001mm" y="0mm" w="12.499mm">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font size="9pt" typeface="Myriad Pro" baselineShift="0pt"/>
+                        <margin bottomInset="5mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                        <para vAlign="bottom" marginRight="2.835pt" marginLeft="2.835pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" hAlign="right"/>
+                     </draw>
+                     <occur min="0" max="-1" initial="11"/>
+                     <?templateDesigner expand 1?></subform>
+                  <keep intact="contentArea"/>
+                  <event activity="ready" ref="$layout" name="event__layout_ready">
+                     <script>
+for m = 0 upto Mark.instanceManager.count -1 step 2 do
+	Mark[m].Mark.font.weight = "bold"
+endfor
+</script>
+                  </event>
+                  <?templateDesigner expand 0?></subform>
+               <occur max="-1"/>
+               <subform name="Chart" layout="tb">
+                  <subform h="100mm" name="hLines">
+                     <draw name="hLine" w="10mm" h="0in" x="0mm" y="0mm">
+                        <value>
+                           <line slope="/">
+                              <edge thickness="0.01mm"/>
+                           </line>
+                        </value>
+                     </draw>
+                     <draw name="hLine" w="10mm" h="0in" y="20.001mm" x="0mm">
+                        <value>
+                           <line slope="/">
+                              <edge thickness="0.01mm"/>
+                           </line>
+                        </value>
+                     </draw>
+                     <draw name="hLine" w="10mm" h="0in" y="40.001mm" x="0mm">
+                        <value>
+                           <line slope="/">
+                              <edge thickness="0.01mm"/>
+                           </line>
+                        </value>
+                     </draw>
+                     <draw name="hLine" w="10mm" h="0in" y="60.001mm" x="0mm">
+                        <value>
+                           <line slope="/">
+                              <edge thickness="0.01mm"/>
+                           </line>
+                        </value>
+                     </draw>
+                     <draw name="hLine" w="10mm" h="0in" y="80.001mm" x="0mm">
+                        <value>
+                           <line slope="/">
+                              <edge thickness="0.01mm"/>
+                           </line>
+                        </value>
+                     </draw>
+                     <draw name="xAxis" w="10mm" h="0in" x="0mm" y="100.001mm">
+                        <value>
+                           <line slope="/">
+                              <edge thickness="0.2mm"/>
+                           </line>
+                        </value>
+                     </draw>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <corner/>
+                     </border>
+                     <?templateDesigner expand 0?></subform>
+                  <subform name="Line" presence="invisible">
+                     <margin leftInset="0mm" rightInset="0mm"/>
+                     <draw name="LineGraph" w="10mm" h="0in" x="0mm" y="0mm">
+                        <value>
+                           <line>
+                              <edge>
+                                 <color value="255,0,0"/>
+                              </edge>
+                           </line>
+                        </value>
+                        <margin rightInset="0mm" leftInset="0mm"/>
+                     </draw>
+                     <occur max="-1"/>
+                     <?templateDesigner expand 1?></subform>
+                  <subform name="Label" presence="invisible">
+                     <draw name="LineValue" w="10mm" x="10.001mm" anchorType="topRight" y="0mm" h="5mm">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text>0</text>
+                        </value>
+                        <font typeface="Myriad Pro" size="6pt" baselineShift="0pt"/>
+                        <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="5mm" rightInset="0mm"/>
+                        <para hAlign="right" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+                        <border>
+                           <edge presence="hidden"/>
+                           <corner/>
+                           <corner/>
+                           <corner presence="hidden"/>
+                           <corner/>
+                        </border>
+                        <assist>
+                           <toolTip>TEST</toolTip>
+                           <speak priority="toolTip"/>
+                        </assist>
+                     </draw>
+                     <occur max="-1"/>
+                     <?templateDesigner expand 1?></subform>
+                  <occur max="-1"/>
+                  <keep intact="contentArea"/>
+                  <border>
+                     <edge presence="hidden"/>
+                     <corner thickness="0.176mm" presence="hidden"/>
+                  </border>
+                  <margin leftInset="0mm"/>
+                  <overflow leader="ScaleY"/>
+                  <?templateDesigner expand 1?></subform>
+               <keep intact="contentArea"/>
+               <field name="Trigger" w="2mm" h="4.999mm" presence="invisible" access="readOnly">
+                  <ui>
+                     <numericEdit>
+                        <border presence="hidden"/>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Myriad Pro"/>
+                  <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <calculate>
+                     <script>;LINE CHART CALCULATION SCRIPT (language: FormCalc)
+;
+;Version 2.0 (c) 2010 Marcus Radzuweit
+;Invented and programmed by Marcus Radzuweit
+;
+;www:		http://thelivecycle.blogspot.com/
+;
+;You can use this script for any purposes as long
+;this header information is not removed or modified!
+
+var Check = RenderChart.value
+if (Check eq "true") then	
+	;Calculate the factor by which the charts is calculated 
+	var Factor
+	var MaxInput = Max(Input.Table.ChartValues[*].Col[*].Amount)
+	var Fmin
+	var Fmax
+	;Range for the chart = 10.000 (-50 = 9950)
+	for f = 0 upto 9950 step 50 do
+		Fmin = f
+		Fmax = Fmin + 50
+		if (Within(MaxInput, Fmin, Fmax) eq 1) then
+			Factor = 1 / (Fmax / 100)
+		endif
+	endfor
+
+	;Count the number of rows
+	var nRows = Input.Table.ChartValues.instanceManager.count 
+	;Count the number colums and set same number of charts + one as placeholder
+	var nColumns = Input.Table.ChartValues[nRows -1].Col.instanceManager.count 
+	_Chart.setInstances(nColumns + 1)
+
+	;Set of variables we need in the loops
+	var GraphValue			;Value for the line
+	var GraphLabel			;Value for the label
+	var PrevGraphValue		;Value of the previous line
+	var GraphDiff			;Difference between the current an the previous line
+	var LineStart			;Start position of the current line
+	var ContainerHeight 	;Reference height of a subform &gt; we use the subform "hLines"
+	var Offset 				;Offset of the line from the start position
+
+	;Initiate for loop to calculate every single line
+	;Loop through each row of the input table
+	for r=0 upto nRows -1 step 1 do
+		;Loop through each column of the current row
+		for c=0 upto nColumns -1 step 1 do
+	
+			;Make subform "Chart" flowing top to bottom 
+			;This is neccessary to allow add instances of the wrapped subforms
+			Chart[c].layout = "tb"
+			;Now set the new number of instances for the subforms "Line" and "Labels"
+			Chart[c]._Line.setInstances(nRows)
+			Chart[c]._Label.setInstances(nRows)
+			;Reset the subform "Chart" to positioned, so the line charts can overlap each other
+			Chart[c].layout = "position"
+			;Get the reference height from the subform "hLines"
+			ContainerHeight = UnitValue(Chart[c].hLines.h, "in")
+			;Reposition the line to the bottom of the surrounding subform
+			Chart[c].Line[r].y = ContainerHeight 	
+	
+			GraphValue = Input.Table.ChartValues[r].Col[c].Amount
+			Chart[c].Line[r].presence = "visible"
+			Chart[c].Label[r].presence = "visible"
+
+			Chart[0].Line[r].presence = "invisible"		;first line is only a placeholder
+		
+			if(c eq 0) then
+				PrevGraphValue = 0
+				LineStart = ContainerHeight 
+			else
+				PrevGraphValue = Input.Table.ChartValues[r].Col[c-1].Amount
+				LineStart = UnitValue(Chart[c-1].Line.LineGraph.y, "mm") 
+			endif
+		
+			;Calculate Y-Axis	
+			for y = 10 downto 0 step 1 do
+				Output.yAxis.Mark[y].Mark.value.text.value = Round((10 - y) * 10 / Factor)
+			endfor 
+
+			;Select a color for the lines
+			var nColor = Choose(r+1, 			;Instance (+1) = position in this list	
+								"238,0,0", 		;Red
+								"255,99,71", 	;Tomato
+								"255,127,80", 	;Coral
+								"255,140,0", 	;DarkOrange
+								"255,165,0", 	;Orange
+								"255,215,0", 	;Gold
+								"255,255,0", 	;Yellow
+								"238,238,0", 	;Yellow2
+								"154,205,50", 	;YellowGreen
+								"69,139,0",		;Chartreuse
+								"0,139,0",		;Green
+								"0,139,69",		;SpringGreen
+								"69,139,116",	;Aquamarine
+								"82,139,139",	;DarkSlateGray
+								"0,139,139",	;Cyan
+								"0,134,139")	;Turquoise
+
+			;Assign a color to the currrent line and label
+			Chart[c].Line[r].LineGraph.value.line.edge.color.value = nColor
+			Input.Table.ChartValues[r].Color.Color.value.rectangle.fill.color.value = nColor
+
+			;Calculate the difference between the current and previous line
+			GraphDiff = GraphValue - PrevGraphValue 
+
+			;Assign the new height to the current line
+			Chart[c].Line[r].LineGraph.h = UnitValue(Abs(GraphDiff), "in") / 25.4 * Factor 
+			Chart[c].Label[r].LineValue.value.text.value = GraphValue
+		
+			;Assign the caption of the current row as toolTip
+			GraphLabel = Input.Table.ChartValues[r].Label
+			Chart[c].Label[r].LineValue.assist.toolTip.value = GraphLabel
+
+			;Set the slope of the line 
+			if(GraphDiff &gt;= 0) then
+				Chart[c].Line[r].LineGraph.value.#line.slope = "/"
+			else
+				Chart[c].Line[r].LineGraph.value.#line.slope = "\"
+			endif
+		
+			if(c eq 0) then
+				Offset = ContainerHeight - UnitValue(Abs(GraphDiff), "in") / 25.4 * Factor
+				Chart[c].Line[r].y =  Offset
+				Chart[c].Label[r].y = Offset
+			else
+				if(GraphDiff &gt;= 0) then
+					Offset = ContainerHeight - GraphValue / 25.4 * Factor
+					Chart[c].Line[r].y = Offset
+					Chart[c].Label[r].y = Offset
+				else
+					Offset = ContainerHeight - (GraphValue + Abs(GraphDiff)) / 25.4 * Factor 
+					Chart[c].Line[r].y = Offset
+					Chart[c].Label[r].y = ContainerHeight - (GraphValue / 25.4) * Factor
+				endif
+			endif	
+		endfor
+	endfor
+endif
+
+
+
+</script>
+                  </calculate>
+               </field>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?></subform>
+      <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+      <variables>
+         <text name="RenderChart">"false"</text>
+         <text name="OldValue">0</text>
+         <?templateDesigner expand 1?></variables>
+      <?templateDesigner expand 1?></subform>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner DefaultRunAt client?>
+   <?acrobat JavaScript strictScoping?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions scalingPrefs 0?>
+   <?PDFPrintOptions enforceScalingPrefs 0?>
+   <?PDFPrintOptions paperSource 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 20?>
+   <?templateDesigner DefaultCaptionFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+   <?templateDesigner Zoom 136?>
+   <?templateDesigner SavePDFWithLog 0?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo>
+            <embed>1</embed>
+         </fontInfo>
+         <tagged>1</tagged>
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+</xfa:datasets>
+<sourceSet xmlns="http://www.xfa.org/schema/xfa-source-set/2.8/"/>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/"/>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale name="en_US" desc="English (United States)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2017-05-03T19:09:24Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Designer 6.1</xmp:CreatorTool>
+         <xmpMM:DocumentID>uuid:58344db9-0a52-497d-87c6-097b7ee05e91</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:7f7d9aa2-75aa-4c4e-8552-36d67d176438</xmpMM:InstanceID>
+         <xmpMM:subject>
+            <rdf:Seq>
+               <rdf:li>4</rdf:li>
+            </rdf:Seq>
+         </xmpMM:subject>
+         <dc:format>application/pdf</dc:format>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>tart1_mr</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">TL-57 (Rev</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <pdf:Producer>Designer 6.1</pdf:Producer>
+         <pdfx:SourceModified>D:20170503173705</pdfx:SourceModified>
+         <pdfx:Company>VDOT</pdfx:Company>
+         <pdfx:SPSDescription>Materials TL-57, Nuclear Density Roller Pattern</pdfx:SPSDescription>
+         <pdfx:Division>Materials</pdfx:Division>
+         <pdfx:Classification>Form</pdfx:Classification>
+         <pdfx:District>Central Office</pdfx:District>
+         <pdfx:Status>Final</pdfx:Status>
+         <pdfx:Formↂ0020ID>Materials TL-57, Nuclear Density Roller Pattern</pdfx:Formↂ0020ID>
+         <pdfx:Title0>Materials TL-57, Nuclear Density Roller Pattern</pdfx:Title0>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>6.1.0.20150517.1.919161</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>

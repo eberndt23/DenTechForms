@@ -1,0 +1,2 @@
+RenderChart.value = "false"
+OldValue.value = 0
