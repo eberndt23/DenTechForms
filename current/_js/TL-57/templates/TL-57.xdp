@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xfa generator="Designer_V6.1.0.20150517.1.919161" APIVersion="3.6.15103.0"?>
-<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-05-03T20:14:12Z" uuid="3ea46bc3-48e0-4d91-8f11-10c45a445e6a">
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-05-17T18:31:30Z" uuid="1ec02c6b-60f4-402a-abc8-6e2074b2509b">
 <template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
    <?formServer defaultPDFRenderFormat acrobat10.0static?>
    <?formServer allowRenderCaching 0?>
@@ -1091,7 +1091,7 @@
                <para vAlign="middle"/>
                <font size="7pt" typeface="ArialNarrow"/>
                <traversal>
-                  <traverse ref="Control_Strip_No[0]"/>
+                  <traverse ref="ctrlStripNumber[0]"/>
                </traversal>
             </draw>
             <?templateDesigner expand 1?></subform>
@@ -1175,7 +1175,7 @@
                </rectangle>
             </value>
          </draw>
-         <field name="Control_Strip_No" x="272.4pt" y="85.8pt" w="71.28pt" h="17.4pt">
+         <field name="ctrlStripNumber" x="272.4pt" y="85.8pt" w="71.28pt" h="17.4pt">
             <ui>
                <textEdit>
                   <margin/>
@@ -1189,6 +1189,7 @@
             <traversal>
                <traverse ref="Project_or_Schedule[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Project_or_Schedule" x="141.12pt" y="103.8pt" w="82.08pt" h="17.4pt">
             <ui>
@@ -1204,6 +1205,7 @@
             <traversal>
                <traverse ref="Item_No[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Item_No" x="272.4pt" y="103.8pt" w="71.28pt" h="17.4pt">
             <ui>
@@ -1219,6 +1221,7 @@
             <traversal>
                <traverse ref="Route[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Route" x="98.76pt" y="121.92pt" w="62.16pt" h="17.28pt">
             <ui>
@@ -1234,6 +1237,7 @@
             <traversal>
                <traverse ref="From[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="From" x="272.4pt" y="121.8pt" w="71.28pt" h="17.4pt">
             <ui>
@@ -1249,6 +1253,7 @@
             <traversal>
                <traverse ref="Directional_Lane[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Directional_Lane" x="141.12pt" y="139.56pt" w="53.28pt" h="16.2pt">
             <ui>
@@ -1264,6 +1269,7 @@
             <traversal>
                <traverse ref="Mix_Type[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Mix_Type" x="116.16pt" y="172.8pt" w="78.24pt" h="17.4pt">
             <ui>
@@ -1279,6 +1285,7 @@
             <traversal>
                <traverse ref="Application_Rate[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Application_Rate" x="272.4pt" y="172.8pt" w="48.48pt" h="17.4pt">
             <ui>
@@ -1294,6 +1301,7 @@
             <traversal>
                <traverse ref="Producer[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Producer" x="91.8pt" y="190.92pt" w="202.56pt" h="17.28pt">
             <ui>
@@ -1309,6 +1317,7 @@
             <traversal>
                <traverse ref="Model[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Model" x="88.92pt" y="215.52pt" w="73.08pt" h="17.4pt">
             <ui>
@@ -1324,6 +1333,7 @@
             <traversal>
                <traverse ref="No[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="No" x="197.4pt" y="215.52pt" w="81.84pt" h="17.4pt">
             <ui>
@@ -1339,36 +1349,51 @@
             <traversal>
                <traverse ref="Date[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
-         <field name="Date" x="332.4pt" y="215.52pt" w="90.84pt" h="17.4pt">
+         <field name="Date" y="215.52pt" x="332.4pt" w="90.84pt" h="17.4pt">
             <ui>
-               <textEdit>
+               <dateTimeEdit>
                   <margin/>
-               </textEdit>
+               </dateTimeEdit>
             </ui>
-            <para vAlign="middle"/>
             <font typeface="Helvetica"/>
+            <para vAlign="middle"/>
+            <value>
+               <date/>
+            </value>
             <assist>
                <toolTip>Date</toolTip>
             </assist>
             <traversal>
                <traverse ref="Date_2[0]"/>
             </traversal>
+            <format>
+               <picture>date{M/YYYY}</picture>
+            </format>
+            <validate nullTest="error"/>
          </field>
-         <field name="Date_2" x="454.92pt" y="103.8pt" w="65.16pt" h="17.4pt">
+         <field name="Date_2" y="103.8pt" x="454.92pt" w="65.16pt" h="17.4pt">
             <ui>
-               <textEdit>
+               <dateTimeEdit>
                   <margin/>
-               </textEdit>
+               </dateTimeEdit>
             </ui>
-            <para vAlign="middle"/>
             <font typeface="Helvetica"/>
+            <para vAlign="middle"/>
+            <value>
+               <date/>
+            </value>
             <assist>
                <toolTip>Date</toolTip>
             </assist>
             <traversal>
                <traverse ref="To[0]"/>
             </traversal>
+            <format>
+               <picture>date{M/D/YYYY}</picture>
+            </format>
+            <validate nullTest="error"/>
          </field>
          <field name="To" x="454.92pt" y="121.8pt" w="65.16pt" h="17.4pt">
             <ui>
@@ -1384,6 +1409,7 @@
             <traversal>
                <traverse ref="Lane[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Lane" x="454.92pt" y="139.8pt" w="65.16pt" h="15.96pt">
             <ui>
@@ -1414,6 +1440,7 @@
             <traversal>
                <traverse ref="Location[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Location" x="371.16pt" y="190.8pt" w="193.2pt" h="17.4pt">
             <ui>
@@ -1429,6 +1456,7 @@
             <traversal>
                <traverse ref="Setting[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Setting" x="458.4pt" y="215.52pt" w="72.84pt" h="17.4pt">
             <ui>
@@ -1444,6 +1472,7 @@
             <traversal>
                <traverse ref="from_peak_of_roller_pattern_curve[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="from_peak_of_roller_pattern_curve" x="189pt" y="642.96pt" w="156.36pt" h="17.4pt">
             <ui>
@@ -1504,6 +1533,7 @@
             <traversal>
                <traverse ref="Roller_3[0]"/>
             </traversal>
+            <validate nullTest="error"/>
          </field>
          <field name="Roller_3" x="483.96pt" y="684.84pt" w="70.56pt" h="17.4pt">
             <ui>
@@ -1515,21 +1545,6 @@
             <font typeface="Helvetica"/>
             <assist>
                <toolTip>Roller 3</toolTip>
-            </assist>
-            <traversal>
-               <traverse ref="VDOT_Inspector[0]"/>
-            </traversal>
-         </field>
-         <field name="VDOT_Inspector" x="414.96pt" y="715.2pt" w="139.56pt" h="17.4pt">
-            <ui>
-               <textEdit>
-                  <margin/>
-               </textEdit>
-            </ui>
-            <para vAlign="middle"/>
-            <font typeface="Helvetica"/>
-            <assist>
-               <toolTip>VDOT Inspector</toolTip>
             </assist>
             <traversal>
                <traverse ref="LineTable[0]"/>
@@ -1712,8 +1727,8 @@ $ = nColLabel
                         </traversal>
                         <calculate override="warning">
                            <script>
-var nCharts = ChartValues
-var nChartLabel = Concat("lbs/ft³(kg/m³)", nCharts)
+var nCharts = ChartValues.index
+var nChartLabel = Concat("lbs/ft³(kg/m³)")
 $ = nChartLabel
 </script>
                         </calculate>
@@ -2171,26 +2186,7 @@ endif
                </field>
                <?templateDesigner expand 1?></subform>
             <?templateDesigner expand 1?></subform>
-         <draw name="Rectangle1" y="94.798mm" x="43.337mm" w="146.836mm" h="129.032mm">
-            <value>
-               <rectangle>
-                  <edge/>
-                  <corner radius="5.08mm"/>
-               </rectangle>
-            </value>
-         </draw>
-         <draw name="Text2" y="152.832mm" x="20.897mm" w="29.2864mm" h="17.228mm">
-            <ui>
-               <textEdit/>
-            </ui>
-            <value>
-               <text>Density lbs/ft³  (kg/m³) </text>
-            </value>
-            <font typeface="Arial" baselineShift="0pt" size="8pt"/>
-            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
-            <para hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
-         </draw>
-         <draw name="Text1" y="90.644mm" x="117.902mm" w="33.441mm" h="5.2331mm" anchorType="middleCenter">
+         <draw name="Text1" y="3.568639in" x="4.239889in" w="1.583153in" h="5.2331mm" anchorType="middleCenter">
             <ui>
                <textEdit/>
             </ui>
@@ -2203,6 +2199,74 @@ endif
             <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
             <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
          </draw>
+         <draw name="Text2" y="152.445mm" x="15.867mm" w="29.2864mm" h="17.228mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>Density lbs/ft³  (kg/m³) </text>
+            </value>
+            <font typeface="Arial" baselineShift="0pt" size="8pt"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <para hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+         </draw>
+         <field name="ResetForm" y="264.462mm" x="116.653mm" w="26.703mm" h="8.511mm">
+            <?templateDesigner isResetFieldsObject true?>
+            <ui>
+               <button/>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <caption>
+               <value>
+                  <text>Reset Form</text>
+               </value>
+               <para hAlign="center" vAlign="middle"/>
+            </caption>
+            <border hand="right">
+               <edge stroke="raised"/>
+               <fill>
+                  <color value="212,208,200"/>
+               </fill>
+            </border>
+            <bind match="none"/>
+            <event name="event__click" activity="click">
+               <script contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:B2274234-07CA-40A3-ADD2-370A6680A865 CRC:3029775963)
+//+ Type: Action
+//+ Result1: ResetForm()
+//+ Node1: topmostSubform[0].Page1[0].ResetForm[0]
+//+ Condition1: Button("$Node1","click")
+//+ ActionName: ResetForm.click
+xfa.host.resetData();
+//-
+xfa.host.resetData();
+</script>
+            </event>
+         </field>
+         <field name="SubmitForm" y="264.462mm" x="77.966mm" w="26.703mm" h="8.512mm">
+            <ui>
+               <button/>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <caption>
+               <value>
+                  <text>Submit Form</text>
+               </value>
+               <para vAlign="middle" hAlign="center"/>
+            </caption>
+            <border hand="right">
+               <edge stroke="raised"/>
+               <fill>
+                  <color value="212,208,200"/>
+               </fill>
+            </border>
+            <bind match="none"/>
+            <event activity="click" name="event__click">
+               <script contentType="application/x-javascript">mySaveDoc(event.target);
+xfa.host.messageBox("Form Saved! This window will now close", "File Saved", 3 ,1);
+app.execMenuItem("Close");
+</script>
+            </event>
+         </field>
          <?templateDesigner expand 1?></subform>
       <variables>
          <text name="RenderChart">"false"</text>
@@ -2211,9 +2275,8 @@ endif
       <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
       <?templateDesigner expand 1?></subform>
    <?templateDesigner WidowOrphanControl 0?>
-   <?templateDesigner Zoom 136?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.3/?>
    <?templateDesigner SavePDFWithLog 0?>
-   <?templateDesigner FormTargetVersion 33?>
    <?templateDesigner DefaultLanguage FormCalc?>
    <?templateDesigner DefaultRunAt client?>
    <?acrobat JavaScript strictScoping?>
@@ -2228,8 +2291,11 @@ endif
    <?templateDesigner XDPPreviewFormat 20?>
    <?templateDesigner DefaultCaptionFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
    <?templateDesigner DefaultValueFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+   <?templateDesigner ValidationMessaging allMessagesTogether?>
    <?templateDesigner SaveTaggedPDF 1?>
    <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Zoom 136?>
    <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
 <config xmlns="http://www.xfa.org/schema/xci/3.0/">
    <agent name="designer">
@@ -2255,6 +2321,11 @@ endif
          <packets>*</packets>
       </xdp>
    </present>
+   <acrobat>
+      <common>
+         <validationMessaging>allMessagesTogether</validationMessaging>
+      </common>
+   </acrobat>
 </config>
 <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
    <xfa:data xfa:dataNode="dataGroup"/>
@@ -2369,9 +2440,9 @@ endif
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
-         <xmp:MetadataDate>2017-05-03T20:14:12Z</xmp:MetadataDate>
+         <xmp:MetadataDate>2017-05-17T18:31:30Z</xmp:MetadataDate>
          <xmp:CreatorTool>Designer 6.1</xmp:CreatorTool>
-         <xmpMM:DocumentID>uuid:3ea46bc3-48e0-4d91-8f11-10c45a445e6a</xmpMM:DocumentID>
+         <xmpMM:DocumentID>uuid:1ec02c6b-60f4-402a-abc8-6e2074b2509b</xmpMM:DocumentID>
          <xmpMM:InstanceID>uuid:7f7d9aa2-75aa-4c4e-8552-36d67d176438</xmpMM:InstanceID>
          <xmpMM:subject>
             <rdf:Seq>
