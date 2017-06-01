@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xfa generator="Designer_V6.1.0.20150517.1.919161" APIVersion="3.6.15103.0"?>
-<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-05-17T18:31:30Z" uuid="1ec02c6b-60f4-402a-abc8-6e2074b2509b">
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-06-01T14:10:34Z" uuid="678a6173-196a-4ee2-ab11-22ae518c5542">
 <template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
    <?formServer defaultPDFRenderFormat acrobat10.0static?>
    <?formServer allowRenderCaching 0?>
@@ -1764,7 +1764,7 @@ endif
                            <toolTip>Remove this row and chart</toolTip>
                         </assist>
                         <traversal>
-                           <traverse ref="Col[0].Amount[0]"/>
+                           <traverse ref="Col[0]"/>
                         </traversal>
                      </field>
                      <subform name="Color" w="5mm" h="5mm">
@@ -1802,7 +1802,7 @@ endif
                      <subform name="Col">
                         <para vAlign="middle" hAlign="center"/>
                         <occur max="10" min="2"/>
-                        <field name="Amount" h="5mm" w="10mm" x="0mm">
+                        <field name="Amount" x="0mm" w="10mm" h="5mm">
                            <ui>
                               <numericEdit>
                                  <border presence="hidden">
@@ -1813,6 +1813,9 @@ endif
                            <font typeface="Myriad Pro" size="8pt"/>
                            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
                            <para vAlign="middle" hAlign="right"/>
+                           <value>
+                              <decimal>0</decimal>
+                           </value>
                            <border>
                               <edge presence="hidden"/>
                               <corner thickness="0.1778mm" presence="hidden"/>
@@ -1823,9 +1826,6 @@ endif
                               <edge/>
                               <edge presence="hidden"/>
                            </border>
-                           <value>
-                              <integer>0</integer>
-                           </value>
                            <event activity="exit" name="event__exit">
                               <script>
 if ($ &gt; 10000) then
@@ -1842,9 +1842,6 @@ if ($ ne OldValue.value) then
 endif
 </script>
                            </event>
-                           <traversal>
-                              <traverse ref="Sum[0]"/>
-                           </traversal>
                            <event activity="enter" name="event__enter">
                               <script>
 OldValue.value = $
@@ -1859,7 +1856,7 @@ OldValue.value = $
                         <edge presence="hidden"/>
                      </border>
                      <occur max="15"/>
-                     <field access="readOnly" name="Sum" w="10mm" presence="invisible">
+                     <field name="Sum" w="10mm" presence="invisible" access="readOnly">
                         <ui>
                            <numericEdit>
                               <margin/>
@@ -1868,11 +1865,9 @@ OldValue.value = $
                         <font typeface="Myriad Pro" size="8pt"/>
                         <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
                         <para vAlign="middle" hAlign="right"/>
-                        <calculate>
-                           <script>
-Sum(Col[*].Amount)
-</script>
-                        </calculate>
+                        <value>
+                           <decimal/>
+                        </value>
                         <border>
                            <edge presence="hidden"/>
                            <edge presence="hidden"/>
@@ -1880,6 +1875,11 @@ Sum(Col[*].Amount)
                            <edge/>
                            <corner/>
                         </border>
+                        <calculate>
+                           <script>
+Sum(Col[*].Amount)
+</script>
+                        </calculate>
                      </field>
                      <?templateDesigner expand 1?></subform>
                   <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
@@ -2210,7 +2210,7 @@ endif
             <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
             <para hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
          </draw>
-         <field name="ResetForm" y="264.462mm" x="116.653mm" w="26.703mm" h="8.511mm">
+         <field name="ResetForm" y="264.462mm" x="170.731mm" w="26.703mm" h="8.511mm">
             <?templateDesigner isResetFieldsObject true?>
             <ui>
                <button/>
@@ -2225,7 +2225,10 @@ endif
             <border hand="right">
                <edge stroke="raised"/>
                <fill>
-                  <color value="212,208,200"/>
+                  <color value="255,0,0"/>
+                  <radial type="toCenter">
+                     <color value="255,153,0"/>
+                  </radial>
                </fill>
             </border>
             <bind match="none"/>
@@ -2242,9 +2245,9 @@ xfa.host.resetData();
 </script>
             </event>
          </field>
-         <field name="SubmitForm" y="264.462mm" x="77.966mm" w="26.703mm" h="8.512mm">
+         <field name="SubmitForm" y="264.462mm" x="60.325mm" w="26.703mm" h="8.512mm">
             <ui>
-               <button/>
+               <button highlight="inverted"/>
             </ui>
             <font typeface="Myriad Pro"/>
             <caption>
@@ -2256,14 +2259,60 @@ xfa.host.resetData();
             <border hand="right">
                <edge stroke="raised"/>
                <fill>
-                  <color value="212,208,200"/>
+                  <color value="0,128,0"/>
+                  <radial>
+                     <color value="0,51,0"/>
+                  </radial>
                </fill>
             </border>
             <bind match="none"/>
             <event activity="click" name="event__click">
-               <script contentType="application/x-javascript">mySaveDoc(event.target);
-xfa.host.messageBox("Form Saved! This window will now close", "File Saved", 3 ,1);
+               <script contentType="application/x-javascript">var nRtn = xfa.host.messageBox("Are you ready to submit the form?", "Confirm Submission", 2 ,2);
+if(nRtn == 4)
+{
+trustedSilentPrint(event.target);
+mySaveDoc(event.target);
+xfa.host.messageBox("Form saved! This window will now close.", "File Saved", 3);
 app.execMenuItem("Close");
+}
+else if (nRtn ==3)
+{console.println("The Response Was No")
+}
+</script>
+            </event>
+         </field>
+         <field name="SubmitForm" y="264.462mm" x="26.392mm" w="26.703mm" h="8.512mm">
+            <ui>
+               <button highlight="inverted"/>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <caption>
+               <value>
+                  <text>Save Progress</text>
+               </value>
+               <para vAlign="middle" hAlign="center"/>
+            </caption>
+            <border hand="right">
+               <edge stroke="raised"/>
+               <fill>
+                  <color value="255,255,0"/>
+                  <radial>
+                     <color value="255,153,0"/>
+                  </radial>
+               </fill>
+            </border>
+            <bind match="none"/>
+            <event activity="click" name="event__click">
+               <script contentType="application/x-javascript">var nRtn = xfa.host.messageBox("Do you want to save your progress and return to the form later?", "Confirm Submission", 2 ,2);
+if(nRtn == 4)
+{
+mySaveDoc(event.target);
+xfa.host.messageBox("Form saved! Please access the file through Brewpoint to continue working on the form", "File Saved", 3);
+app.execMenuItem("Close");
+}
+else if (nRtn ==3)
+{console.println("The Response Was No")
+}
 </script>
             </event>
          </field>
@@ -2273,10 +2322,29 @@ app.execMenuItem("Close");
          <text name="OldValue">0</text>
          <?templateDesigner expand 1?></variables>
       <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+      <proto>
+         <subform name="designer__stylesheet">
+            <field name="ButtonStyle1" w="26.703mm" h="8.512mm">
+               <ui>
+                  <button highlight="inverted"/>
+               </ui>
+               <caption>
+                  <para vAlign="middle" hAlign="center"/>
+                  <font typeface="Myriad Pro"/>
+               </caption>
+               <border hand="right">
+                  <edge stroke="raised"/>
+                  <fill>
+                     <color value="51,153,102"/>
+                  </fill>
+               </border>
+               <margin leftInset="0mm" rightInset="0mm" topInset="0mm" bottomInset="0mm"/>
+            </field>
+         </subform>
+      </proto>
       <?templateDesigner expand 1?></subform>
    <?templateDesigner WidowOrphanControl 0?>
    <?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.3/?>
-   <?templateDesigner SavePDFWithLog 0?>
    <?templateDesigner DefaultLanguage FormCalc?>
    <?templateDesigner DefaultRunAt client?>
    <?acrobat JavaScript strictScoping?>
@@ -2292,11 +2360,12 @@ app.execMenuItem("Close");
    <?templateDesigner DefaultCaptionFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
    <?templateDesigner DefaultValueFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
    <?templateDesigner ValidationMessaging allMessagesTogether?>
-   <?templateDesigner SaveTaggedPDF 1?>
-   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner SaveTaggedPDF 0?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 0?>
+   <?templateDesigner SavePDFWithLog 0?>
    <?templateDesigner FormTargetVersion 33?>
-   <?templateDesigner Zoom 136?>
-   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 133?></template>
 <config xmlns="http://www.xfa.org/schema/xci/3.0/">
    <agent name="designer">
       <!--  [0..n]  -->
@@ -2311,9 +2380,9 @@ app.execMenuItem("Close");
       <pdf>
          <!--  [0..n]  -->
          <fontInfo>
-            <embed>1</embed>
+            <embed>0</embed>
          </fontInfo>
-         <tagged>1</tagged>
+         <tagged>0</tagged>
          <version>1.7</version>
          <adobeExtensionLevel>8</adobeExtensionLevel>
       </pdf>
@@ -2440,9 +2509,9 @@ app.execMenuItem("Close");
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
-         <xmp:MetadataDate>2017-05-17T18:31:30Z</xmp:MetadataDate>
+         <xmp:MetadataDate>2017-06-01T14:10:34Z</xmp:MetadataDate>
          <xmp:CreatorTool>Designer 6.1</xmp:CreatorTool>
-         <xmpMM:DocumentID>uuid:1ec02c6b-60f4-402a-abc8-6e2074b2509b</xmpMM:DocumentID>
+         <xmpMM:DocumentID>uuid:678a6173-196a-4ee2-ab11-22ae518c5542</xmpMM:DocumentID>
          <xmpMM:InstanceID>uuid:7f7d9aa2-75aa-4c4e-8552-36d67d176438</xmpMM:InstanceID>
          <xmpMM:subject>
             <rdf:Seq>
