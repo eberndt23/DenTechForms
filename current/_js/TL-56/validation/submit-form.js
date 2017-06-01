@@ -70,7 +70,8 @@ cMsg += "\n\nAre you ready to submit the form?";
 var nRtn = app.alert(cMsg,2,2,"Submit Form");
 if(nRtn == 4)
 {
-app.execMenuItem("Save");
+var cMyPath = this.path;
+this.saveAs({cPath:cMyPath, bPromptToOverwrite:false});
 app.alert("Form submitted successfully! This window will now close.", 3);
 app.execMenuItem("Close");;
 }
