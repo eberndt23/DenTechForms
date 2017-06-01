@@ -1,10 +1,11 @@
-function Avg() {
+function avgStripNonIntegers() {
 // compute average of non-empty passed field names
+// Strip non-numeric values from non-empty passed field names
 var sum = 0; // sum of fields
 var count = 0; // counter for non-blank fields
 for(i = 0; i < arguments.length; i++) {
 var iField = arguments[i]; // get the i element from passed arguments
-var fField = this.getField(arguments[i]).value;
+var fField = this.getField(arguments[i]).valueAsString.replace(/[^\d.-]/g, '');
 if(!(isNaN(fField)) ) {
 // field is a number
 if(fField.toString() != '') {

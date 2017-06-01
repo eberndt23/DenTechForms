@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xfa generator="Designer_V6.1.0.20150517.1.919161" APIVersion="3.6.15103.0"?>
-<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-06-01T14:10:34Z" uuid="678a6173-196a-4ee2-ab11-22ae518c5542">
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-06-01T17:02:53Z" uuid="21156af2-044d-4ad4-992a-1b531485645d">
 <template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
    <?formServer defaultPDFRenderFormat acrobat10.0static?>
    <?formServer allowRenderCaching 0?>
@@ -1915,7 +1915,7 @@ Sum(Col[*].Amount)
                         <font size="9pt" typeface="Myriad Pro" baselineShift="0pt"/>
                         <margin bottomInset="5mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
                         <para vAlign="bottom" marginRight="2.835pt" marginLeft="2.835pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" hAlign="right"/>
-                     </draw>
+                        <?renderCache.bounds 35430 14173 0 0 0 0 0 0?></draw>
                      <occur min="0" max="-1" initial="11"/>
                      <?templateDesigner expand 1?></subform>
                   <keep intact="contentArea"/>
@@ -2209,7 +2209,10 @@ endif
             <font typeface="Arial" baselineShift="0pt" size="8pt"/>
             <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
             <para hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
-         </draw>
+            <?renderCache.bounds 80183 46001 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 8 Density  0 28171 7733 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+            <?renderCache.textRun 10 lbs/ft³   0 31729 17333 0 0 0 "Arial" 0 0 8000 ISO-8859-1?>
+            <?renderCache.textRun 9 (kg/m³)  0 28844 26933 0 0 0 "Arial" 0 0 8000 ISO-8859-1?></draw>
          <field name="ResetForm" y="264.462mm" x="170.731mm" w="26.703mm" h="8.511mm">
             <?templateDesigner isResetFieldsObject true?>
             <ui>
@@ -2245,7 +2248,7 @@ xfa.host.resetData();
 </script>
             </event>
          </field>
-         <field name="SubmitForm" y="264.462mm" x="60.325mm" w="26.703mm" h="8.512mm">
+         <field name="SubmitForm" y="264.462mm" x="95.25mm" w="26.703mm" h="8.512mm">
             <ui>
                <button highlight="inverted"/>
             </ui>
@@ -2307,7 +2310,7 @@ else if (nRtn ==3)
 if(nRtn == 4)
 {
 mySaveDoc(event.target);
-xfa.host.messageBox("Form saved! Please access the file through Brewpoint to continue working on the form", "File Saved", 3);
+xfa.host.messageBox("Form saved! Please access the form through Brewpoint to complete your work.", "File Saved", 3);
 app.execMenuItem("Close");
 }
 else if (nRtn ==3)
@@ -2342,7 +2345,11 @@ else if (nRtn ==3)
             </field>
          </subform>
       </proto>
-      <?templateDesigner expand 1?></subform>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 216 56 0003000B000C001000110012001300140015001600170018001A001D00240025002600270029002A002C002F0030003100320033003500360037004400450046004700480049004A004B004C004D004E004F005000510052005300550056005700580059005B005C00F000F1 ()-./0123457:ABCDFGILMNOPRSTabcdefghijklmnoprstuvxy²³?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 76 19 0003001000240026002700280029002A002B002C002F0031003200330035003600370038003C -ACDEFGHILNOPRSTUY?>
+      <?renderCache.subset "Arial Narrow" 0 0 ISO-8859-1 4 128 32 0003000B000C000F0011002500260027002C002F0031003200360037003900440046004700480049004C004E004F005000510052005300550056005700580059 (),.BCDILNOSTVacdefiklmnoprstuv?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 80 20 0001000C000E001100270031003300340042004300460048004A004E005000530054005500560057 +-0FPRSabegimorstuv?></subform>
    <?templateDesigner WidowOrphanControl 0?>
    <?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.3/?>
    <?templateDesigner DefaultLanguage FormCalc?>
@@ -2364,8 +2371,8 @@ else if (nRtn ==3)
    <?templateDesigner SavePDFWithEmbeddedFonts 0?>
    <?templateDesigner SavePDFWithLog 0?>
    <?templateDesigner FormTargetVersion 33?>
-   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
-   <?templateDesigner Zoom 133?></template>
+   <?templateDesigner Zoom 133?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
 <config xmlns="http://www.xfa.org/schema/xci/3.0/">
    <agent name="designer">
       <!--  [0..n]  -->
@@ -2377,6 +2384,7 @@ else if (nRtn ==3)
    </agent>
    <present>
       <!--  [0..n]  -->
+      <destination>pdf</destination>
       <pdf>
          <!--  [0..n]  -->
          <fontInfo>
@@ -2509,9 +2517,9 @@ else if (nRtn ==3)
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
-         <xmp:MetadataDate>2017-06-01T14:10:34Z</xmp:MetadataDate>
+         <xmp:MetadataDate>2017-06-01T17:02:53Z</xmp:MetadataDate>
          <xmp:CreatorTool>Designer 6.1</xmp:CreatorTool>
-         <xmpMM:DocumentID>uuid:678a6173-196a-4ee2-ab11-22ae518c5542</xmpMM:DocumentID>
+         <xmpMM:DocumentID>uuid:21156af2-044d-4ad4-992a-1b531485645d</xmpMM:DocumentID>
          <xmpMM:InstanceID>uuid:7f7d9aa2-75aa-4c4e-8552-36d67d176438</xmpMM:InstanceID>
          <xmpMM:subject>
             <rdf:Seq>
@@ -2531,7 +2539,7 @@ else if (nRtn ==3)
          </dc:title>
          <pdf:Producer>Designer 6.1</pdf:Producer>
          <pdfx:SourceModified>D:20170503173705</pdfx:SourceModified>
-         <pdfx:Company>VDOT</pdfx:Company>
+         <pdfx:Company>Superior Paving</pdfx:Company>
          <pdfx:SPSDescription>Materials TL-57, Nuclear Density Roller Pattern</pdfx:SPSDescription>
          <pdfx:Division>Materials</pdfx:Division>
          <pdfx:Classification>Form</pdfx:Classification>

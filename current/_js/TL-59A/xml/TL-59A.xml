@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Created from PDF via Acrobat SaveAsXML -->
+<!-- Mapping Table version: 28-February-2003 -->
+<TaggedPDF-doc>
+<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c015 84.159810, 2016/09/10-02:41:30        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:adhocwf="http://ns.adobe.com/AcrobatAdhocWorkflow/1.0/"
+            xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/">
+         <xmp:ModifyDate>2017-06-01T12:45:57-04:00</xmp:ModifyDate>
+         <xmp:CreateDate>2017-03-10T11:37:15-05:00</xmp:CreateDate>
+         <xmp:MetadataDate>2017-06-01T12:45:57-04:00</xmp:MetadataDate>
+         <xmp:CreatorTool>Acrobat PDFMaker 15 for Word</xmp:CreatorTool>
+         <xmpMM:DocumentID>uuid:268dab36-d916-47ee-8aa2-9265b96720e0</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:77dc876b-8bd3-42cd-ae7b-1259048db58b</xmpMM:InstanceID>
+         <xmpMM:subject>
+            <rdf:Seq>
+               <rdf:li>2</rdf:li>
+            </rdf:Seq>
+         </xmpMM:subject>
+         <dc:format>xml</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">TL-59A</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <dc:description>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default"/>
+            </rdf:Alt>
+         </dc:description>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>Berndt, Erik (Superior Paving Corp.)</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <pdf:Producer>Adobe PDF Library 15.0</pdf:Producer>
+         <adhocwf:state>1</adhocwf:state>
+         <adhocwf:version>1.1</adhocwf:version>
+         <pdfx:Company>Virginia Department of Transportation</pdfx:Company>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+<?xpacket end='r'?>
+<bookmark-tree>
+<bookmark title="Control Strip Information:">
+<destination structID="LinkTarget_68"/>
+</bookmark>
+<bookmark title="QC Testing Results By Nuclear Gauge:">
+<destination structID="LinkTarget_85"/>
+</bookmark>
+</bookmark-tree>
+
+<Sect>
+<Table>
+<TR>
+<TD>
+<Normal xml:lang="EN-US">Project/Schedule Number: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Item Number: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">Route Number: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">County: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">From (Station, MP, Int., etc.): </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">To (Station, MP, Int., etc.): </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">Direction (e.g. NB, SB, etc.) </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Lane (Inside, Center, Right, etc): </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">QC Lot #: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Application Rate (lbs/sy): </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">Asphalt Mix Type: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Asphalt Job Mix Number: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">Nuclear Gauge Model Number: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Gauge Calibration Date: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">Nuclear Gauge Serial Number: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Depth Setting (in/mm): </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+</Table>
+
+<Heading-2 id="LinkTarget_68" xml:lang="EN-US">Control Strip Information: </Heading-2>
+
+<Table>
+<TR>
+<TD>
+<Normal xml:lang="EN-US">1.Control Strip Number and Date</Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">2.Target Density from Control Strip</Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">lbs/ft3 (kg/m3) </Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">3.Minimum Density (98% Of Control Strip Target Density)</Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">lbs/ft3 (kg/m3) </Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">4.Maximum Density (102% Of Control Strip Target Density)</Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">lbs/ft3 (kg/m3) </Normal>
+</TD>
+</TR>
+</Table>
+
+<Heading-2 id="LinkTarget_85" xml:lang="EN-US">QC Testing Results By Nuclear Gauge: </Heading-2>
+
+<Table>
+<TR>
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Location </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Nuclear Density </Normal>
+
+<Normal xml:lang="EN-US">lbs/ft3 (kg/m3) </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Sublot Average </Normal>
+
+<Normal xml:lang="EN-US">lbs/ft3 (kg/m3) </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Joint Density lbs/ft3 (kg/m3) </Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">Sublot No. </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Distance </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Offset </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Left (C or U)* </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">Right (C or U)* </Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">1a </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">1b </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">2a </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">2b </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">3a </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">3b </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">4a </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">4b </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">5a </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">5b </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">6a </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">6b </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">7a </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">7b </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"> Average: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">Does the QC Test Section: (check one) </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">PASS  FAIL </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US">* - C = Confined Jt, U = Unconfined Jt</Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US">Comments: </Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+
+<TR>
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+
+<TD>
+<Normal xml:lang="EN-US"></Normal>
+</TD>
+</TR>
+</Table>
+
+<Normal xml:lang="EN-US"></Normal>
+</Sect>
+</TaggedPDF-doc>

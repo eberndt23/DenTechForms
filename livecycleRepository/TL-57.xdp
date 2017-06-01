@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xfa generator="Designer_V6.1.0.20150517.1.919161" APIVersion="3.6.15103.0"?>
-<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-06-01T14:14:16Z" uuid="678a6173-196a-4ee2-ab11-22ae518c5542">
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-06-01T17:02:40Z" uuid="7b5f46ee-590d-46b8-8a54-6f986db02f30">
 <template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
    <?formServer defaultPDFRenderFormat acrobat10.0static?>
    <?formServer allowRenderCaching 0?>
@@ -2248,7 +2248,7 @@ xfa.host.resetData();
 </script>
             </event>
          </field>
-         <field name="SubmitForm" y="264.462mm" x="60.325mm" w="26.703mm" h="8.512mm">
+         <field name="SubmitForm" y="264.462mm" x="95.25mm" w="26.703mm" h="8.512mm">
             <ui>
                <button highlight="inverted"/>
             </ui>
@@ -2310,7 +2310,7 @@ else if (nRtn ==3)
 if(nRtn == 4)
 {
 mySaveDoc(event.target);
-xfa.host.messageBox("Form saved! Please access the file through Brewpoint to continue working on the form", "File Saved", 3);
+xfa.host.messageBox("Form saved! Please access the form through Brewpoint to complete your work.", "File Saved", 3);
 app.execMenuItem("Close");
 }
 else if (nRtn ==3)
@@ -2370,8 +2370,8 @@ else if (nRtn ==3)
    <?templateDesigner SaveTaggedPDF 0?>
    <?templateDesigner SavePDFWithEmbeddedFonts 0?>
    <?templateDesigner SavePDFWithLog 0?>
-   <?templateDesigner Zoom 133?>
    <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Zoom 133?>
    <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
 <config xmlns="http://www.xfa.org/schema/xci/3.0/">
    <agent name="designer">
@@ -2517,9 +2517,9 @@ else if (nRtn ==3)
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.150055, 2013/08/07-22:58:47        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
-         <xmp:MetadataDate>2017-06-01T14:14:16Z</xmp:MetadataDate>
+         <xmp:MetadataDate>2017-06-01T17:02:40Z</xmp:MetadataDate>
          <xmp:CreatorTool>Designer 6.1</xmp:CreatorTool>
-         <xmpMM:DocumentID>uuid:678a6173-196a-4ee2-ab11-22ae518c5542</xmpMM:DocumentID>
+         <xmpMM:DocumentID>uuid:7b5f46ee-590d-46b8-8a54-6f986db02f30</xmpMM:DocumentID>
          <xmpMM:InstanceID>uuid:7f7d9aa2-75aa-4c4e-8552-36d67d176438</xmpMM:InstanceID>
          <xmpMM:subject>
             <rdf:Seq>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Created from PDF via Acrobat SaveAsXML -->
+<!-- Mapping Table version: 28-February-2003 -->
+<TaggedPDF-doc>
+<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c015 84.159810, 2016/09/10-02:41:30        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/"
+            xmlns:adhocwf="http://ns.adobe.com/AcrobatAdhocWorkflow/1.0/">
+         <xmp:ModifyDate>2017-06-01T12:33:10-04:00</xmp:ModifyDate>
+         <xmp:CreateDate>2017-04-11T13:31:47-04:00</xmp:CreateDate>
+         <xmp:MetadataDate>2017-06-01T12:33:10-04:00</xmp:MetadataDate>
+         <xmp:CreatorTool>Acrobat PDFMaker 15 for Excel</xmp:CreatorTool>
+         <xmpMM:DocumentID>uuid:c969056f-e178-481c-915a-5b74dfb72eaa</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:14e7cbf6-f69d-4a0a-bf4d-9da03583edab</xmpMM:InstanceID>
+         <dc:format>xml</dc:format>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>Berndt, Erik (Superior Paving Corp.)</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">TL 59A New Method A-Cores</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <pdf:Producer>Adobe PDF Library 15.0</pdf:Producer>
+         <pdfx:Company>Virginia IT Infrastructure Partnership</pdfx:Company>
+         <adhocwf:state>1</adhocwf:state>
+         <adhocwf:version>1.1</adhocwf:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+<?xpacket end='r'?>
+<bookmark-tree>
+<bookmark title="Sheet1">
+<destination structID="LinkTarget_28"/>
+</bookmark>
+</bookmark-tree>
+
+<Workbook>
+<Worksheet>
+<Table>
+<TR>
+<TD id="LinkTarget_28">Production Date:</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>Route &amp; Direction:</TD>
+
+<TD/>
+
+<TD/>
+
+<TD>Lane(s):</TD>
+</TR>
+
+<TR>
+<TD>Project/Schedule Number:</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>County:</TD>
+
+<TD/>
+
+<TD/>
+
+<TD>Paving Contractor:</TD>
+</TR>
+
+<TR>
+<TD>Test Section (Lot) #:</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>From (Station, MP):</TD>
+
+<TD/>
+
+<TD/>
+
+<TD>To (Station, MP):</TD>
+</TR>
+
+<TR>
+<TD>Total paved length (ft):</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>Application Width (ft):</TD>
+
+<TD/>
+
+<TD/>
+
+<TD>Application Rate (lbs/sy)</TD>
+</TR>
+
+<TR>
+<TD>Calculated tonnage:</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>Asphalt Producer:</TD>
+
+<TD/>
+
+<TD/>
+
+<TD>Asphalt Plant:</TD>
+</TR>
+
+<TR>
+<TD>Asphalt Mix Type:</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>Job Mix ID:</TD>
+</TR>
+
+<TR/>
+
+<TR>
+<TD>Control Strip Information:</TD>
+</TR>
+
+<TR>
+<TD>1.Control Strip Number and Date:</TD>
+
+<TD/>
+
+<TD>2.CS Density:</TD>
+
+<TD/>
+
+<TD>lbs/ft³</TD>
+
+<TD>Nuclear Gauge Serial #:</TD>
+</TR>
+
+<TR>
+<TD>3.Min Longitudinal Joint Density:</TD>
+
+<TD/>
+
+<TD>lbs/ft³ (= 95% CS Density)</TD>
+</TR>
+
+<TR/>
+
+<TR>
+<TD>Acceptance Testing Results By Plugs/Cores:</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>Daily Gmm:</TD>
+
+<TD/>
+
+<TD>Plant Lot &amp; Sample #(s) for Gmm testing:</TD>
+</TR>
+
+<TR/>
+
+<TR>
+<TD>Sub lot</TD>
+
+<TD>Distance (ft)</TD>
+
+<TD>Offset     (ft)</TD>
+
+<TD>Thickness (in)</TD>
+
+<TD>Weight in Air [A]</TD>
+
+<TD>Weight in H2O [B]</TD>
+
+<TD>SSD Weight   [C]</TD>
+
+<TD>Volume (C-B)</TD>
+
+<TD>Gmb    (A/(C-B))</TD>
+
+<TD>%Gmm</TD>
+
+<TD>Bonus Eligible</TD>
+
+<TD>Longitudinal Joint Density</TD>
+</TR>
+
+<TR>
+<TD>Left (lbs/ft3)</TD>
+
+<TD>Right (lbs/ft3)</TD>
+</TR>
+
+<TR>
+<TD>1</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>0</TD>
+
+<TD/>
+
+<TD>#VALUE!</TD>
+</TR>
+
+<TR>
+<TD>2</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>0</TD>
+
+<TD/>
+
+<TD>#VALUE!</TD>
+</TR>
+
+<TR>
+<TD>3</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>0</TD>
+
+<TD/>
+
+<TD>#VALUE!</TD>
+</TR>
+
+<TR>
+<TD>4</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>0</TD>
+
+<TD/>
+
+<TD>#VALUE!</TD>
+</TR>
+
+<TR>
+<TD>5</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>0</TD>
+
+<TD/>
+
+<TD>#VALUE!</TD>
+</TR>
+
+<TR>
+<TD>6</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>0</TD>
+
+<TD/>
+
+<TD>#VALUE!</TD>
+</TR>
+
+<TR>
+<TD>7</TD>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD/>
+
+<TD>0</TD>
+
+<TD/>
+
+<TD>#VALUE!</TD>
+</TR>
+
+<TR>
+<TD>Pay Factor from S315HP1 Table III-4A:</TD>
+
+<TD/>
+
+<TD/>
+
+<TD> Averages:</TD>
+
+<TD/>
+
+<TD>#DIV/0!</TD>
+
+<TD>#DIV/0!</TD>
+
+<TD/>
+
+<TD>Percent of sub lots meeting bonus criteria</TD>
+</TR>
+
+<TR/>
+
+<TR/>
+
+<TR>
+<TD>Field Level II Technician:</TD>
+
+<TD/>
+
+<TD>Comments:</TD>
+
+<TD>Date:</TD>
+</TR>
+
+<TR>
+<TD>Inspector: </TD>
+</TR>
+</Table>
+</Worksheet>
+</Workbook>
+</TaggedPDF-doc>
